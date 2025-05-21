@@ -2,18 +2,6 @@
 
 This application will allow creating/removing/updating/fetching projects that you, as a university student, have to complete before a given deadline. Each project can optionally have an attachment image. Each user only has access to project that he/she has added.
 
-# Projects
-
-The application stores projects, and each project contains the following fields:
-
-* `todoId` (string) - a unique id for a prohect
-* `createdAt` (string) - date and time when project was created
-* `name` (string) - name of a project (e.g. "Computer project")
-* `dueDate` (string) - date and time by which a project should be completed
-* `done` (boolean) - true if a project was completed, false otherwise
-* `attachmentUrl` (string) (optional) - a URL pointing to an image attached to a project
-* `userId` (string) - the id of the user who created a project
-
 
 # Frontend
 
@@ -54,7 +42,7 @@ npm install
 npm run start
 ```
 
-This should start a development server with the React application that will interact with the serverless TODO application.
+This should start a development server with the React application that will interact with the serverless loan Approval prediction application.
 
 
 
